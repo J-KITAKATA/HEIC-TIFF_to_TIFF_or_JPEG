@@ -53,4 +53,6 @@ limitations under the License.
 見落としがない限りは、おおよそ2週間くらいで対応すると思います。  
   
 If you encounter any problems when using it, or if you need additional features, please let us know on [Discuss](https://github.com/J-KITAKATA/HEIC-TIFF_to_TIFF_or_JPEG/discussions).
-We will respond to your request within approximately two weeks, unless we have missed it.
+We will respond to your request within approximately two weeks, unless we have missed it.  
+
+https://github.com/J-KITAKATA/HEIC-TIFF_to_TIFF_or_JPEG
