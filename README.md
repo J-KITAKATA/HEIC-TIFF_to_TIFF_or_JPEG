@@ -1,6 +1,6 @@
 # HEIC / TIFF Converter TIPS
 Ver 1.0     
-2024/10/01　角屋 佳太
+2024/10/01　J-KITAKATA
 
 ## 概要    
 　iPhoneやiPadでそのまま画像を撮影すると `.heic` という拡張子ファイルとして保存され、Windowsやその他ソフトウェアでは読み取れない場合が多々あります。それを解決するためにHEICファイルをTIFFファイルとJPEGファイルの2種類に変換できるようなアプリケーションを作成しました。   
@@ -48,8 +48,8 @@ limitations under the License.
 
 
 
-## その他
-使用しているときに問題が発生したり、機能の追加を必要とする場合には以下のメールアドレスに連絡してください。  
-メールの見落としがない限りは、2週間くらいで対応すると思います。
-
-<syokunin@outlook.jp>
+## その他(Other)
+使用しているときに問題が発生したり、機能の追加を必要とする場合には[Discuss](https://github.com/J-KITAKATA/HEIC-TIFF_to_TIFF_or_JPEG/discussions)にて教えてください。
+見落としがない限りは、おおよそ2週間くらいで対応すると思います。  
+If you encounter any problems when using it, or if you need additional features, please let us know on [Discuss] (https://github.com/J-KITAKATA/HEIC-TIFF_to_TIFF_or_JPEG/discussions).
+We will respond to your request within approximately two weeks, unless we have missed it.
