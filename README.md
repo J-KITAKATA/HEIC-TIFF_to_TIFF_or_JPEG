@@ -29,7 +29,7 @@ Ver 1.0
 
 ## ライセンス等について
 GitHubライセンスの`Apache License 2.0`に基づき改変して、Github上にアップロードする場合には元のソースコードと一緒にどこをどのように改変したのかを示すようにしてください。  
-また、東京工芸大学内に限り配布を認めますが、著作権者の表示を必須とします。  
+配布する場合には、このページのURLも一緒に配布してください。
 詳しくは[リンク](https://www.apache.org/licenses/LICENSE-2.0.html)に記載されている内容を確認してください。  
 
 >Copyright [yyyy] [name of copyright owner]
