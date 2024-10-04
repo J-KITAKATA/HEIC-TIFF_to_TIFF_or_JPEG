@@ -123,6 +123,10 @@ class HEICtoTIFFConverterApp:
 
         self.progress["maximum"] = total_files
 
+        # サブプロセスのウィンドウ表示を抑制する設定
+        startupinfo = subprocess.STARTUPINFO()
+        startupinfo.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+
         for index, file in enumerate(files):
             if not self.converting:
                 break
@@ -139,7 +143,7 @@ class HEICtoTIFFConverterApp:
             self.current_output_file = os.path.join(self.output_folder, output_file_name)
 
             try:
-                subprocess.run(['magick', input_file_path, self.current_output_file], check=True)
+                subprocess.run(['magick', input_file_path, self.current_output_file], check=True, startupinfo=startupinfo)
                 self.status_label.config(text=f"{file} を変換しました。")
             except subprocess.CalledProcessError as e:
                 self.status_label.config(text=f"エラーが発生しました: {e}")
