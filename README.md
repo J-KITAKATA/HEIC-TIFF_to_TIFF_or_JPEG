@@ -1,5 +1,5 @@
 # HEIC / TIFF Converter TIPS
-Ver 1.0     
+Ver 1.0.1     
 2024/10/01　J-KITAKATA
 
 ## 概要    
@@ -45,6 +45,12 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
+
+## Change Log  
+* Ver 1.0.1 : TIFF→JPEG 変換時にコンソールが出てしまう問題を解決しました。
+
+
 
 
 
